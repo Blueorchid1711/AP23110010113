@@ -3,7 +3,12 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ## Getting Started
 <img width="1760" height="947" alt="image" src="https://github.com/user-attachments/assets/7ed83135-ba10-475e-a9bc-0c8508a6df0a" />
 
-
+If page is not displaying results please follow the below steps:
+1. Download all files and run on VS Code.
+2. In terminal, run ### npm run dev and go to http://localhost:3000/auth.
+3. generate access token and replace in router.js in notifications folder as well as in router.js in log folder.
+4. Then you'll see the data. (As access token expires, we need to replace it.)
+   
 First, run the development server:
 
 ```bash
